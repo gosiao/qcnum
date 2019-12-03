@@ -1,0 +1,24 @@
+# input file 1
+--finp=jbx.csv
+--prep=True
+--varnames=jx_bx,jy_bx,jz_bx
+--nr_header_lines=2
+--npoints=10,10,10
+--sep= 
+# input file 2
+--finp=jby.csv
+--prep=True
+--varnames=jx_by,jy_by,jz_by
+--nr_header_lines=2
+--npoints=10,10,10
+--sep= 
+# input file 3
+--finp=jbz.csv
+--prep=True
+--varnames=jx_bz,jy_bz,jz_bz
+--nr_header_lines=2
+--npoints=10,10,10
+--sep= 
+#
+# the name of an output file:
+--fout_data=result.csv
